@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.gokraka.com/
+name: Kraka Lifecycle
+description: >-
+  Operational and lifecycle posture for Kraka Technologies GmbH. Kraka publishes
+  a hosted status page but does not publish a public API, a versioning policy, a
+  deprecation policy, or a public SLA. Only what is genuinely published is
+  recorded here.
+status_page:
+  url: https://status.gokraka.com/
+  provider: incident.io
+  evidence: CNAME status.gokraka.com -> statuspage.incident.io
+  http_status: 200
+  probed: '2026-07-19'
+  current_state: We're fully operational
+  history_window: Apr 2026 - Jul 2026
+  subscribe: true
+  components:
+  - name: Website
+    uptime: '100%'
+versioning:
+  policy_url: null
+  scheme: null
+  notes: >-
+    No public API and no published versioning scheme were found on gokraka.com
+    or in its sitemap as of 2026-07-19.
+deprecation:
+  policy_url: null
+  sunset_header: false
+  deprecation_header: false
+  notes: >-
+    No deprecation policy and no RFC 8594 Sunset/Deprecation header usage could
+    be verified; Kraka exposes no documented public API surface.
+sla:
+  url: null
+  notes: No public SLA published.
+deprecated_operations: []
