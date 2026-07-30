@@ -1,19 +1,44 @@
 aid: kraka
 name: Kraka
-description: Kraka is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Kraka Technologies GmbH is a Berlin-based industrial AI company whose platform turns
+  plain video recordings of shop-floor tasks into standardized, multilingual, step-by-step work
+  instructions. Kraka Studio is the core product, extended by Training, Maintenance and Quality
+  modules covering workforce qualification, AI-assisted fault diagnosis and checklist-driven quality
+  control. Kraka positions itself as closing the execution gap between ERP systems that manage data
+  and the work actually performed on the factory floor. Backed by Seedcamp. No public API,
+  developer portal or SDK is published as of July 2026.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/ILHci4p5BEnrU3DXx8ZRRmzu4g.jpg
 url: https://raw.githubusercontent.com/api-evangelist/kraka/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Manufacturing
+- Artificial Intelligence
+- Workforce Training
+- Standard Operating Procedures
+- Quality Management
+- Maintenance
+- Industry 4.0
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://gokraka.com
+  url: https://gokraka.com
+- type: Blog
+  url: https://gokraka.com/impulse
+- type: StatusPage
+  url: https://status.gokraka.com/
+- type: Lifecycle
+  url: lifecycle/kraka-lifecycle.yml
+- type: DomainSecurity
+  url: security/kraka-domain-security.yml
+- type: LLMsTxt
+  url: llms/kraka-llms.txt
+- type: Login
+  url: https://app.gokraka.com/sign-in
+- type: PrivacyPolicy
+  url: https://gokraka.com/datenschutz
+- type: Contact
+  url: https://gokraka.com/impressum
+- type: Demo
+  url: https://gokraka.com/demo
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
