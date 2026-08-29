@@ -7,6 +7,17 @@ description: Kraka Technologies GmbH is a Berlin-based industrial AI company who
   control. Kraka positions itself as closing the execution gap between ERP systems that manage data
   and the work actually performed on the factory floor. Backed by Seedcamp. No public API,
   developer portal or SDK is published as of July 2026.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
